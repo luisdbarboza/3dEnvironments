@@ -16,7 +16,7 @@ let mixer;
   Hola daviel, aqui puedes ver como cargo los modelos 3d junto a los Entornos que me pasó gonzalo
 */
 
-loader.load('../Entornos/Entorno2/Entorno2.gltf', (gltf) => {
+loader.load('/Entornos/Entorno2/Entorno2.gltf', (gltf) => {
     camera.position.y = 5;
     camera.position.z = 30;
     
@@ -34,7 +34,7 @@ loader.load('../Entornos/Entorno2/Entorno2.gltf', (gltf) => {
   }
 );
 
-loader.load('../Card2/Card.gltf', (gltf) => {
+loader.load('/Card2/Card.gltf', (gltf) => {
     gltf.scene.position.y = 0.02;
 
     gltf.scene.traverse( function( node ) {
