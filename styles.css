@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+/*Modal*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+.exporter-btns {
+  padding: 1rem;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  right: 0px;
+  color: white !important;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exporter-btn {
+  text-decoration: none;
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px gray;
+  color: darkslategray;
+  padding: 0.4rem;
+}
+
+.animation-btns {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.animation-btn {
+  padding: 1rem;
+  border-radius: 2px;
+  margin-left: 5px;
+  color: white;
+  background-color: forestgreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.animation-btn:hover {
+  cursor: pointer;
+  background-color: limegreen;
+}
